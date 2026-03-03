@@ -18,3 +18,69 @@ This decision is particularly difficult because it challenges deeply ingrained c
 
 ![Draft Causal Loop Diagram](img/cld-draft.png)
 
+---
+
+## Milestone 2: Data Exploration & System Mapping
+
+### Data Sources
+
+Four datasets were used in this analysis, all sourced from Statistics Canada and Employment and Social Development Canada (ESDC). Full documentation for each dataset is available in the [data/README.md](data/README.md) file.
+
+- **07-v-avlbal-pro-eng.csv** — Average federal student loan balance at time of leaving school, by study level and institution type (ESDC, 2009–2022)
+- **3710003601-eng.csv** — Student debt from all sources at graduation, by province and level of study (Statistics Canada, 2000–2020)
+- **45-n-cal-pt-eng.csv** — Number of Canada Apprentice Loan recipients by province and territory (ESDC, 2014–2022)
+- **3710028001-eng.csv** — Median employment income of postsecondary graduates two and five years after graduation (Statistics Canada)
+
+---
+
+### Visualizations & Findings
+
+#### Figure 1: Average Student Loan Balance at Graduation — Trades vs. University (2009–2022)
+![Figure 1](img/viz1.png)
+
+University graduates have consistently carried significantly higher debt loads than trades and college graduates over the entire 13-year period. Starting at approximately $15,800 in 2009-2010, university loan balances rose to $18,000 by 2021-2022. Trades and college graduates averaged around $9,400 at the start and $12,200 by the end — roughly 35% less debt at graduation. The gap widened in the final years, suggesting the debt divergence between pathways is accelerating. For the guidance counselor, students directed toward university are entering the labour market with substantially more financial burden, which raises the stakes considerably if employment outcomes are poor or delayed.
+
+---
+
+#### Figure 2: Average Student Debt at Graduation by Credential Level, Canada (2020)
+![Figure 2](img/viz2.png)
+
+This snapshot from the 2020 National Graduates Survey shows the stark difference in debt loads across credential types. College graduates carried an average of approximately $16,700 in debt, while bachelor's degree holders averaged $30,800 — nearly double. Master's graduates averaged $25,800 and doctoral graduates $34,400. For the decision-maker, university represents a fundamentally different financial commitment that students must weigh against expected employment outcomes. A guidance counselor who does not address this difference is withholding important information during a critical life decision.
+
+---
+
+#### Figure 3: Canada Apprentice Loan Recipients Over Time (2014–2022)
+![Figure 3](img/viz3.png)
+
+After a strong launch spike in 2015-2016 with 16,422 recipients nationally, the number of apprentices accessing the Canada Apprentice Loan declined steadily each year, falling to just 8,000 in 2020-2021 before a modest recovery to 8,249 in 2021-2022. This decline occurred even as trades labour shortages worsened across Canada. This suggests that awareness of trades financing options is low — students may be choosing university not because it is the better path, but because they are unaware that interest-free apprenticeship loans exist.
+
+---
+
+#### Figure 4: Median Employment Income 2 and 5 Years After Graduation by Credential Type
+![Figure 4](img/viz4.png)
+
+Career and trades graduates earned $44,300 at 2 years and $52,700 at 5 years after graduation — notably higher than college certificate holders and competitive with bachelor's degree holders ($58,700 at 2 years, $70,800 at 5 years). When debt load is factored in, trades graduates reach positive net financial position much earlier than university graduates. The strong 5-year income growth across all pathways suggests trades careers are not a financial dead end but a different trajectory — one that starts earlier and carries far less initial burden.
+
+---
+
+### Causal Loop Diagram
+
+![Causal Loop Diagram](img/cld-draft.png)
+
+**R1 — University Prestige Reinforcing Loop:** High social prestige drives parental expectations for university, increasing enrollment, which further reinforces university as the default pathway. This self-reinforcing loop explains why university enrollment has continued growing even as labour market outcomes for graduates have deteriorated.
+
+**B1 — Debt Stress Balancing Loop:** Rising enrollment increases student debt and graduate financial stress, which over time reduces the attractiveness of university — creating a natural brake on R1. The data in Figures 1 and 2 suggest this loop may be beginning to exert pressure.
+
+**R2 — Trades Wage Reinforcing Loop:** Increased trades enrollment raises worker supply, and rising construction and infrastructure demand pushes wages upward, attracting more enrollment. If activated through stronger counselor messaging, this loop could help address Nova Scotia's trades shortage.
+
+**Intervention point:** The guidance counselor sits at the intersection of R1 and R2. By providing balanced information about debt loads, income outcomes, and available financing options, counselors can weaken R1 and strengthen R2 — nudging the system toward better balance.
+
+---
+
+### APA Data Citations
+
+Employment and Social Development Canada. (2024). *Student financial assistance data for the Canada Student Financial Assistance Program* [Data set]. Open Government Portal. https://open.canada.ca/data/en/dataset/0840231b-5bbf-447f-81ce-3ec0673aefc4
+
+Statistics Canada. (2024). *Student debt from all sources, by province of study and level of study* [Table 37-10-0036-01]. https://doi.org/10.25318/3710003601-eng
+
+Statistics Canada. (2025). *Characteristics and median employment income of longitudinal cohorts of postsecondary graduates two and five years after graduation* [Table 37-10-0280-01]. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710028001
