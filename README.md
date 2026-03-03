@@ -14,10 +14,6 @@ The earnings picture is more nuanced than conventional wisdom suggests. While ba
 
 This decision is particularly difficult because it challenges deeply ingrained cultural assumptions about success and educational pathways. Decades of policy emphasis on university education have created strong social prestige associations and parental expectations that counselors must navigate carefully. The 1996 shift that transformed free vocational training into tuition-charging NSCC programs further entrenched the perception that trades are a "second choice" rather than a strategic career decision. Counselors must balance these cultural forces with objective labor market data, individual student aptitudes, and the reality that a four-year degree is not the optimal path for every student—even those with strong academic capabilities.
 
-## Initial Causal Loop Diagram
-
-![Draft Causal Loop Diagram](img/cld-draft.png)
-
 ---
 
 ## Milestone 2: Data Exploration & System Mapping
@@ -84,3 +80,4 @@ Employment and Social Development Canada. (2024). *Student financial assistance 
 Statistics Canada. (2024). *Student debt from all sources, by province of study and level of study* [Table 37-10-0036-01]. https://doi.org/10.25318/3710003601-eng
 
 Statistics Canada. (2025). *Characteristics and median employment income of longitudinal cohorts of postsecondary graduates two and five years after graduation* [Table 37-10-0280-01]. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710028001
+
