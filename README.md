@@ -71,6 +71,7 @@ Career and trades graduates earned $44,300 at 2 years and $52,700 at 5 years aft
 
 **Intervention point:** The guidance counselor sits at the intersection of R1 and R2. By providing balanced information about debt loads, income outcomes, and available financing options, counselors can weaken R1 and strengthen R2 — nudging the system toward better balance.
 
+ See [Analysis.md](Analysis.md) for the full Milestone 3 analysis.
 ---
 
 ### APA Data Citations
