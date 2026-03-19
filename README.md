@@ -71,7 +71,20 @@ Career and trades graduates earned $44,300 at 2 years and $52,700 at 5 years aft
 
 **Intervention point:** The guidance counselor sits at the intersection of R1 and R2. By providing balanced information about debt loads, income outcomes, and available financing options, counselors can weaken R1 and strengthen R2 — nudging the system toward better balance.
 
- See [Analysis.md](Analysis.md) for the full Milestone 3 analysis.
+---
+
+## Milestone 3: Time Series Analysis (Path B3)
+
+For the full Milestone 3 analysis — including time series decomposition, forecasting model, net financial position analysis, and implications for the decision — see [Analysis.md](Analysis.md).
+
+### Summary of Findings
+
+- University loan balances are growing ~$227/year vs ~$154/year for trades, and the gap is forecast to exceed $7,300 by 2027
+- Trades graduates maintain a cumulative earnings advantage for approximately 13 years after high school graduation
+- Bachelor's degree holders carry debt equal to 52.1% of early income vs 37.7% for trades graduates
+- University does overtake trades in long-term cumulative earnings, but not until roughly age 32
+
+All code is in [`src/analysis.py`](src/analysis.py). Visualizations are in the [`img/`](img/) folder.
 ---
 
 ### APA Data Citations
