@@ -10,7 +10,7 @@ This script performs:
 5. Net financial position analysis (income minus debt)
 6. Publication-quality visualizations
 
-Author: [Your Name]
+Author: Shay Ruparelia
 Date: March 2026
 """
 
