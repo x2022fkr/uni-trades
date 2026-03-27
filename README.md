@@ -61,7 +61,7 @@ Career and trades graduates earned $44,300 at 2 years and $52,700 at 5 years aft
 
 ### Causal Loop Diagram
 
-![Causal Loop Diagram](img/cld-draft.png)
+![Causal Loop Diagram](img/cld-final.png)
 
 **R1 — University Prestige Reinforcing Loop:** High social prestige drives parental expectations for university, increasing enrollment, which further reinforces university as the default pathway. This self-reinforcing loop explains why university enrollment has continued growing even as labour market outcomes for graduates have deteriorated.
 
